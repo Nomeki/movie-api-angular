@@ -1,0 +1,30 @@
+.example-card {
+  max-width: 200px;
+}
+
+.bg-height {
+  height: 60vh;
+} 
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.font-properties {
+  color: white;
+  padding-top: 7px;
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 12px;
+  height: 50px;
+}
+
+.description-properties {
+  background-color:rgba(0,0,0,0.5);
+  max-width: 330px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+  

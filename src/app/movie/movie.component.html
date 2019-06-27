@@ -1,0 +1,18 @@
+<div class="bg-body">
+  <div class="no-margin-row header-properties row">
+    <img src="../../assets/logo.png" class="logo-properties">
+  </div>
+
+  <div class="no-margin-row padding-top-10 row">
+    <div class="col-md-4" *ngFor="let movie of showMovies">
+      <mat-card class="image-properties">
+        <img [src]="'https://image.tmdb.org/t/p/w300/' + movie.backdrop_path" (click)="goMovieDescription(movie.id)">
+        <mat-card-content>
+          <div class="font-properties">
+            {{movie.title | uppercase}}
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

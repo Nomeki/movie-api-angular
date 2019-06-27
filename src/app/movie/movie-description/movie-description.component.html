@@ -1,0 +1,22 @@
+<div class="bg-body">
+  <div class="no-margin-row header-properties row">
+    <img src="../../assets/logo.png" class="logo-properties">
+  </div>
+
+  <div class="no-margin-row padding-top-10 bg-height row">
+    <div class="col-md-4">
+      <mat-card class="image-properties">
+        <img [src]="'https://image.tmdb.org/t/p/w300/' + movie.backdrop_path" (click)="goMovieDescription(movie.id)">
+      </mat-card>
+    </div>
+
+    <div class="col-md-6">
+      <div class="font-properties">
+        {{movie.title | uppercase}}
+      </div>
+      <div class="font-properties">
+        {{movie.overview}}
+      </div>
+    </div>
+
+  </div>

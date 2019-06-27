@@ -1,0 +1,21 @@
+.font-properties {
+  color: white;
+  padding-top: 7px;
+  text-align: center;
+  font-family: verdana;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 12px;
+  height: 50px;
+}
+
+.image-properties {
+  background-color:rgba(0,0,0,0.5);
+  max-width: 330px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.padding-top-10 {
+  padding-top: 10px;
+}
